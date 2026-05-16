@@ -1,0 +1,22 @@
+title: "Idea: "
+labels:
+  - idea
+category: General
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share your idea for improving the community.
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: What would you like to improve?
+      placeholder: Describe your idea.
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Expected value
+      description: Why would this help members or contributors?
